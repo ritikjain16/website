@@ -1,0 +1,134 @@
+@import '../../../../scss/size.scss';
+
+.editor {
+  box-sizing: border-box;
+  border: hs(1px) solid #ddd;
+  cursor: text;
+  font-size: hs(22px);
+  padding: hs(16px);
+  border-radius: hs(8px);
+  background: #fefefe;
+  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.editorLog {
+  box-sizing: border-box;
+  cursor: text;
+  font-size: hs(22px);
+  padding: hs(16px);
+  border-radius: hs(12px) !important;
+  background: #fefefe;
+  margin-top: hs(5px);
+  margin-left: hs(40px);
+  border: hs(1px) solid #ddd;
+  max-width: 60%;
+  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.editor:hover {
+  box-shadow: 0px 1px 8px -3px #ABABAB;
+  cursor: pointer;
+}
+
+.editor:focus-within{
+  box-shadow: 0px 1px 8px -3px #ABABAB;
+  cursor: default;
+}
+
+.editor :global(.public-DraftEditor-content) {
+  min-height: hs(80px);
+  max-height: hs(300px);
+  overflow-y: scroll;
+}
+
+.headlineButtonWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.headlineButton {
+  background-color: #fefefe;
+  color: #000;
+  font-size: hs(30px);
+  font-weight: bold;
+  vertical-align: bottom;
+  height: hs(34px);
+  width: hs(36px);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headlinesPicker {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: hs(24px) !important;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  cursor: text;
+  padding: hs(16px);
+  max-height: hs(60px);
+  border-radius: hs(4px);
+  box-shadow: inset 0px 1px 8px -3px #ABABAB;
+  background: #fefefe;
+  color: #000 !important;
+}
+
+.headlineButton:hover,
+.headlineButton:focus {
+  background: #f3f3f3;
+}
+
+.toolbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  cursor: text;
+  height: hs(60px);
+  border-radius: hs(4px);
+  box-shadow: inset 0px 1px 8px -3px #ABABAB;
+  background: #fefefe;
+  padding: hs(16px);
+  margin-top: hs(16px);
+  width: 80%;
+}
+
+.saveButton {
+  width: 16%;
+  background: #7fd5a1;
+  border-radius: hs(4px);
+  font-size: hs(24px);
+  height: hs(60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  position: relative;
+  top: hs(16px);
+  color: #fff;
+}
+
+.saveButton:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-weight: bold;
+  margin-left: hs(4px) !important;
+}
+
+.hoverToolbarIcon {
+  opacity: 0.75 !important;
+  &:hover{
+    opacity: 1 !important;
+  }
+}

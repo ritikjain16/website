@@ -1,0 +1,37 @@
+const MAX_OPTIONS_FOR_EACH_BLANK = 4
+const MIN_BLOCKS_COUNT = 2
+const MAX_BLOCKS_COUNT = 9
+const BLANK_PATTERN = /___/g /* if instead want to replace with 4 blanks use '/____/g' */
+const MIN_BLANKS = 1
+const MAX_BLANKS = 6
+const MAX_ARRANGE_OPTIONS = 9
+const MIN_ARRANGE_OPTIONS = 2
+const MAX_MCQ_OPTIONS = 6
+const MIN_MCQ_OPTIONS = 2
+const PUBLISHED_STATUS = 'published'
+const UNPUBLISHED_STATUS = 'unpublished'
+const MAXLENGTH = 300
+const MINLENGTH = 6
+const MAX_ORDER_COUNT = 200
+const MAX_DIFFICULTY_RANGE = 5
+const sectionValue = {
+  FIB_INPUT: 'fibInput',
+  FIB_BLOCK: 'fibBlock',
+  EDIT_QUESTION: 'EditQuestion',
+  MCQ: 'mcq',
+  ARRANGE: 'arrange'
+}
+const BOLD = 'bold'
+const BLOCK = 'block'
+const BLANK = 'blank'
+const BULLET = 'bullet'
+
+const BLOCKLY = 'blockly'
+
+const BLOCKLY_ENABLED_SECTIONS = [sectionValue.MCQ]
+
+export { MAX_OPTIONS_FOR_EACH_BLANK, MIN_BLOCKS_COUNT, MAX_BLOCKS_COUNT,
+  BLANK_PATTERN, MIN_BLANKS, MAX_BLANKS, PUBLISHED_STATUS, UNPUBLISHED_STATUS,
+  sectionValue, MAX_MCQ_OPTIONS, MIN_MCQ_OPTIONS, MINLENGTH, MAXLENGTH,
+  MAX_ORDER_COUNT, MAX_DIFFICULTY_RANGE, MAX_ARRANGE_OPTIONS, MIN_ARRANGE_OPTIONS, BOLD,
+  BLOCK, BLANK, BULLET, BLOCKLY, BLOCKLY_ENABLED_SECTIONS }

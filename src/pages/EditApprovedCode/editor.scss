@@ -1,0 +1,50 @@
+#editor {
+    width: inherit !important;
+}
+
+#editor1#editor1,
+div.interpretor[id^='interpretor'],
+div.interpretor[id^='__interpretor'] {
+    background-color: transparent !important;
+}
+
+.ace_hidden-cursors {
+    opacity: 0
+}
+
+#__editor__full__screen .ace_editor {
+    background-color: #002f3e !important;
+    padding-top: 20px !important;
+    box-sizing: border-box;
+}
+
+#__editor__full__screen .ace_gutter {
+    width: 85px !important;
+    // padding-top: hs(20px) !important;
+    background-color: transparent !important;
+}
+
+.ace-dracula .ace_gutter-active-line {
+    background-color: transparent !important;
+}
+
+.ace-dracula .ace_marker-layer .ace_active-line {
+    background-color: transparent !important;
+}
+
+
+.ace_scrollbar-v::-webkit-scrollbar {
+    max-width: 5px;
+};
+.ace_scrollbar-v::-webkit-scrollbar-thumb {
+    background-color: rgba(#34e4ea, 0.5);
+    border-radius: 0;
+};
+
+.ace_scrollbar-h::-webkit-scrollbar {
+    max-height: 5px;
+};
+.ace_scrollbar-h::-webkit-scrollbar-thumb {
+    background-color: rgba(#34e4ea, 0.5);
+    border-radius: 0;
+};

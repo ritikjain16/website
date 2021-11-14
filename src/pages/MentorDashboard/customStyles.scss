@@ -1,0 +1,12 @@
+/** Antd Custom Select Styles */
+.custom-selectOption:hover:not(.ant-select-dropdown-menu-item-disabled) {
+    background: #FAF7FF !important;
+}
+.custom-selectOption.ant-select-dropdown-menu-item-active:not(.ant-select-dropdown-menu-item-disabled) {
+    background: #FAF7FF !important;
+}
+
+/** FullCalendar Custom Button Style */
+.fc-sessionTypeFilter-button, .fc-datePicker-button{
+    background: transparent !important;
+}

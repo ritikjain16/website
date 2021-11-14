@@ -1,0 +1,12 @@
+@import '../../scss/size.scss';
+
+.sessionTypeRadioGrp {
+  display: flex;
+  flex-direction: row;
+}
+
+.sessionTypeRadioBtn {
+  width: hs(130px);
+  display: flex;
+  justify-content: center;
+}

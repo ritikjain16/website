@@ -1,0 +1,74 @@
+const VIDEO = 'video'
+const LEARNING_OBJECTIVE = 'learningObjective'
+const ASSIGNMENT = 'assignment'
+const QUIZ = 'quiz'
+const COMICSTRIP = 'comicStrip'
+const PROJECT = 'blockBasedProject'
+const PRACTICE = 'blockBasedPractice'
+const CHARACTER = 'character'
+const EQUIPMENT = 'equipment'
+const SKILL = 'skill'
+const MESSAGE = 'message'
+const PRACTICE_QUESTION = 'practiceQuestion'
+const B2B = 'b2b'
+const B2C = 'b2c'
+const B2B2C = 'b2b2c'
+const HOMEWORK_ASSIGNMENT = 'homeworkAssignment'
+const CHATBOT = 'chatbot'
+
+const COURSE_BADGE_TYPE = [
+  CHARACTER,
+  EQUIPMENT,
+  SKILL
+]
+
+const COURSE_BADGE_UNLOCKING_POINT = [
+  VIDEO,
+  MESSAGE,
+  PRACTICE_QUESTION,
+  COMICSTRIP,
+  QUIZ,
+  PROJECT,
+  PRACTICE
+]
+
+const COMPONENT_ARRAY = [
+  VIDEO,
+  LEARNING_OBJECTIVE,
+  ASSIGNMENT,
+  QUIZ,
+  PROJECT,
+  PRACTICE,
+  HOMEWORK_ASSIGNMENT
+]
+
+const TARGET_GROUP_ARRAY = [
+  B2B,
+  B2C,
+  B2B2C
+]
+
+const LO_COMPONENT_ARRAY = [
+  MESSAGE,
+  PRACTICE_QUESTION,
+  COMICSTRIP,
+  CHATBOT
+]
+
+export {
+  VIDEO,
+  LEARNING_OBJECTIVE,
+  ASSIGNMENT,
+  QUIZ,
+  COMICSTRIP,
+  PROJECT,
+  PRACTICE,
+  COMPONENT_ARRAY,
+  COURSE_BADGE_TYPE,
+  COURSE_BADGE_UNLOCKING_POINT,
+  PRACTICE_QUESTION,
+  TARGET_GROUP_ARRAY,
+  HOMEWORK_ASSIGNMENT,
+  LO_COMPONENT_ARRAY,
+  CHATBOT
+}

@@ -1,0 +1,97 @@
+@import '../../scss/size.scss';
+
+.mentor-sessions-table {
+  display: flex;
+  flex-direction: row;
+  font-family: Nunito;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.mentor-sessions-table tr {
+  display: flex;
+}
+
+.mentor-sessions-table td {
+  display: flex;
+}
+
+.mentor-sessions-table th {
+  display: flex;
+  padding: hs(8px) 0 hs(8px) 0 !important;
+  align-items: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.7) !important;
+  font-weight: bold !important;
+  background-color: rgba(0, 0, 0, 0.05) !important;
+  position: sticky !important;
+  font-size: hs(18px);
+}
+
+.mentor-sessions-table tr td {
+  display: flex;
+  padding: hs(14px) 0 hs(14px) 0 !important;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: rgba(0, 0, 0, 0.7) !important;
+  font-size: hs(17px);
+}
+
+.date-row td:nth-child(1) {
+  width: 90vw !important;
+  border-right: none !important;
+  height: hs(56px) !important;
+  background-color: rgba(0, 0, 0, 0.035);
+  font-weight: bold;
+  font-size: hs(16px) !important;
+  overflow: hidden;
+}
+
+.date-row-viewer td:nth-child(1) {
+  width: 82vw !important;
+  border-right: none !important;
+  height: hs(56px) !important;
+  background-color: rgba(0, 0, 0, 0.035);
+  font-weight: bold;
+  font-size: hs(16px) !important;
+  overflow: hidden;
+}
+
+.mentor-sessions-table tr td:nth-child(1), .mentor-sessions-table th:nth-child(1) {
+  width: 5vw;
+}
+
+.mentor-sessions-table tr td:nth-child(2), .mentor-sessions-table th:nth-child(2) {
+  width: 16vw;
+}
+
+.mentor-sessions-table tr td:nth-child(3), .mentor-sessions-table th:nth-child(3) {
+  width: 35vw;
+  padding-bottom: 0 !important;
+}
+
+.mentor-sessions-table tr td:nth-child(4), .mentor-sessions-table tr td:nth-child(5),
+.mentor-sessions-table th:nth-child(4), .mentor-sessions-table th:nth-child(5) {
+  width: 13vw;
+}
+
+.mentor-sessions-table tr td:nth-child(6), .mentor-sessions-table th:nth-child(6) {
+  width: 8vw;
+}
+
+.timeIcon {
+  display: flex;
+  position: relative;
+  right: 0;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.hoverable {
+  &:hover {
+    cursor: pointer;
+  }
+}

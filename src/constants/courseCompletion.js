@@ -1,0 +1,11 @@
+export const COURSE_CERTIFICATE_URL = `${process.env.REACT_APP_FILE_BASE_URL}/python/course/courseCompletionCertificate.pdf`
+export const NUNITO_REGULAR_FONT_URL = `${process.env.REACT_APP_FILE_BASE_URL}/python/course/Nunito-Regular.ttf`
+export const NUNITO_SEMI_BOLD_FONT_URL = `${process.env.REACT_APP_FILE_BASE_URL}/python/course/Nunito-SemiBold.ttf`
+export const LATO_REGULAR_FONT_URL = `${process.env.REACT_APP_FILE_BASE_URL}/python/course/Lato-Regular.ttf`
+export const LATO_BOLD_FONT_URL = `${process.env.REACT_APP_FILE_BASE_URL}/python/course/Lato-Bold.ttf`
+export const NUNITO_BOLD_FONT_URL = `${process.env.REACT_APP_FILE_BASE_URL}/python/course/Nunito-Bold.ttf`
+export const GILROY_EXTRA_BOLD_FONT_URL = `${process.env.REACT_APP_FILE_BASE_URL}/python/course/Gilroy-ExtraBold.otf`
+export const PYTHON_COURSE = 'python'
+export const PYTHON_COURSE_NAME_MAPPING = 'Intro To Coding'
+export const JOURNEY_SNAPSHOT_URL_1 = `${process.env.REACT_APP_FILE_BASE_URL}/python/course/JourneySnapshot.pdf`
+export const JOURNEY_SNAPSHOT_URL_2 = `${process.env.REACT_APP_FILE_BASE_URL}/python/course/JourneySnapshot2.pdf`

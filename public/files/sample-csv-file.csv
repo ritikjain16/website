@@ -1,0 +1,11 @@
+srNo,grade,section,rollNo,childName,gender,parentName,fatherOrMother,phoneNumber,secondNumber,parentEmail,studentEmail
+1,Grade3,A,Dps-008,Aviraj Jethwani,Male,Dr. Ghanshyam Jethwani,Father,8839087573,8839338342,jayjethwani56@gmail.com,jayjethwani56@gmail.com
+2,Grade3,A,DPS-231,Ayansh Rao Garud,Male,Ms.Rekha Garud,Mother,8770856001,9753064050,rekhagarud59@gmail.com,rekhagarud59@gmail.com
+3,Grade3,A,DPS-196,Dharmik Patidar,Male,Mr.Mahendra Patidar,Father,9893994730,9893994730,mahi.patidar15@gmail.com,mahi.patidar15@gmail.com
+4,Grade3,A,DPS-143,Veer Lohia,Male,Mr.Govinda Lohia,Father,9425916333,9425916333,Hmcl.mp.ujjain.lohia@gmail.com,Hmcl.mp.ujjain.lohia@gmail.com
+5,Grade3,A,DPS- 358,Harshit Sharma,Male,Mr Rajesh Sharma,Father,9993200690,8770847012,sharma.rajesh3@gmail.com,harshitujj2013@gmail.com
+6,Grade3,A,DPS- 440,Mayukh Panwar,Male,Mr Prem Kishore Panwar,Father,83494 97247,94066 88280,rashmipawar24081@gmail.com,rashmipawar24081agmail.com
+7,Grade3,A,DPS- 555,Hitiskha Mandloi,Female,Mr Ashish Mandloi,Father,9582527407,9560067023,mala.bhanwar@gmail.com,hitishkamandloi@gamil.com
+8,Grade3,A,DPS-012,Tanay Agrawal,Male,Mr Gaurav Agarwal,Father,8085888956,8085888956,tanayagrawal911@gmail.com,sonam1gaurav@gmail.com
+9,Grade3,A,DPS-420,Himanshi Rajput,Female,Mr Dharmendra Rajput,Father,7566031566,7566031566,kuberseeds3@gmail.com,kuberseeds3@gmail.com
+10,Grade3,A,DPS-021,Amrita Kanadi,Female,Mr Arjun Kanadi,Father,9425092289,9425092547,anurikakanadi@gmail.com,amritakanadi@gmail.com

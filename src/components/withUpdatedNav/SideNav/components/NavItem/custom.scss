@@ -1,0 +1,14 @@
+.custom-ant-tooltip-inner {
+    z-index: 9999;
+    .ant-tooltip-inner {
+        font-family: 'Inter';
+        font-weight: 500;
+        letter-spacing: 0px;
+        background: #FAF7FF;
+        color: #8C61CB;
+    } 
+    
+    .ant-tooltip-arrow {
+        opacity: 0;
+    }
+}

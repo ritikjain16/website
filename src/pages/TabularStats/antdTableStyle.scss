@@ -1,0 +1,26 @@
+@import '../../scss/size.scss';
+
+
+
+
+
+.reportTable tr td:nth-child(1) {
+  position: sticky !important;
+  left: 0 !important;
+  font-weight: bold;
+}
+
+.reportTable tr th:nth-child(1) {
+  position: sticky !important;
+  left: 0 !important;
+  font-weight: bold;
+}
+
+.reportTable {
+  position: relative;
+  overflow-x: scroll;
+  overflow-y: hidden; 
+}
+
+
+

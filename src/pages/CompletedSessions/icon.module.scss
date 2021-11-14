@@ -1,0 +1,37 @@
+@import '../../scss/size.scss';
+
+.icon {
+  height: hs(44px);
+  width: hs(44px);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  &:hover{
+    opacity: 0.7
+  }
+}
+
+.completedIcon {
+  background-image: url("./assets/completIcon.svg");
+}
+
+.notCompletedIcon {
+  background-image: url("./assets/incompletIcon.svg");
+}
+
+.videoLinkYes {
+  background-image: url("./assets/connectionYes.svg");
+}
+
+.videoLinkNo {
+  background-image: url("./assets/connectionNo.svg");
+}
+
+.feedbackYes {
+  background-image: url("./assets/feedbackYes.svg");
+  filter: brightness(1.4);
+}
+
+.feedbackNo {
+  background-image: url("./assets/feedbackNo.svg");
+}

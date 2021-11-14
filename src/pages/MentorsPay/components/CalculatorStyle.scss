@@ -1,0 +1,44 @@
+.calculator-div {
+  border-radius: 5px;
+  box-shadow: 0 0 12px grey;
+  position: relative;
+  table,
+  th,
+  td {
+    position: relative;
+    padding: 4px 0;
+    border-collapse: separate;
+    border-spacing: 0.5em 0;
+  }
+  th,
+  td {
+    padding: 10px 5px;
+    text-align: center;
+  }
+  th {
+    background-color: rgba(0, 114, 255, 0.17);
+  }
+  td {
+    background-color: rgba(184, 240, 255, 0.35);
+  }
+  form {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid grey;
+    padding: 2px;
+  }
+
+  input {
+    flex-grow: 2;
+    border: none;
+  }
+
+  input:focus {
+    outline: none;
+  }
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
